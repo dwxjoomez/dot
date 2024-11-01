@@ -1,0 +1,11 @@
+#!/bin/sh
+
+brew install bash vim tmux lynx git openssh font-ubuntu-mono-nerd-font
+
+echo "##########################################################"
+echo "##########################################################"
+echo "Don't forget after installing bash change the shell"
+echo "echo '/opt/homebrew/bin/bash' || sudo tee -a /etc/shells"
+echo "chsh -s /opt/homebrew/bin/bash"
+echo "##########################################################"
+echo "##########################################################"
